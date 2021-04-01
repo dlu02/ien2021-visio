@@ -36,6 +36,16 @@ backgroundcolor=\color{yellow!5},columns=fullflexible}
 \hrule
 \section{Introduction}
 Le contexte actuel favorisant le télétravail augmente mécaniquement l’usage d’outils de collaboration en ligne, en particulier les outils de visioconférence. Ce qui amène à une pression sur le réseau et plus particulièrement à une charge importante sur les serveurs de chaque solution. Il est donc important d’un point de vue efficience mais aussi impact environnemental de choisir la solution la plus sobre en ressources.
+\section{Résumé des travaux de l'UTC et Greenspector}
+\subsection{Le rapport de l'UTC}
+Tout d'abord l'UTC suppose directement que l'audio et la vidéo sont actifs, ils considèrent l'impact matériel, logiciel et transport.\\
+Il y a 3 scénarios, tous avec 5 participants : Le premier où la réunion est en présentiel, et chaque membre s'y rend physiquement selon son temps de trajet. Le deuxième où la réunion est organisée avec du matériel professionnel pour visioconférence dans l'entreprise à deux endroits, plus un troisième endroit où il y a juste un PC d'un participant, ils utilisent Skype. Enfin le dernier où les participants se regroupent à 3 endroits différents, donc 3 ordinateurs pour 5 participants, avec de faibles temps de transport et en visioconférence sur Jitsi.\\
+D'après leurs études, le scénario C semble être le moins impactant des 3, sur l'environnement mais aussi sur la santé des participants. On remarque que les logiciels n'ont pas réellement d'impact comparé au matériel utilisé. Ils ont enfin aggravé certains scénarios, mais cela ne changeait pas le constat final.\\
+On comprend donc que leur étude n'était pas centrée sur le logiciel utilisé, mais sur ce qu'utilisaient en général les participants.
+\subsection{Greenspector}
+Greenspector eux s'intéressent spécifiquement aux différents logiciels de visioconférence. Il y a encore 3 scénarios, avec cette fois 2 participants : un avec audio, un avec audio + vidéo et enfin un avec audio + vidéo + partage d'écran.\\
+Il s'intéressent à la quantité de données échangées ainsi qu'à la consommation éléctrique. Ils transposent ensuite en équivalent carbone. La conclusion de leurs travaux est que la vidéo consomme énormement, et le partage d'écran moins que la vidéo mais toujours plus que l'audio.\\
+La partie qui consomme le plus est le réseau, mais la consommation de l'appareil est également importante (presque 1 tier). La consommation serveur est très faible. Selon eux l'application qui a le moins d'impact est GoToMeeting, celle qui consomme le plus est Jitsi.
 \section{Cadre d'étude}
 \subsection{Objectifs}
 L'objectif est de comparer les outils de visioconférence Openmeetings, Zoom et Jitsi dans différentes conditions d'utilisation qui reflètent un usage standard en entreprise ou à l'école. Nous étudierons leurs impacts environnementaux en termes de consommation électrique, et d'utilisation de données pour déterminer la solution la plus adaptée.
