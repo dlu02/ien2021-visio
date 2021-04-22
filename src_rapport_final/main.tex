@@ -53,7 +53,7 @@ backgroundcolor=\color{yellow!5},columns=fullflexible}
 \addcontentsline{toc}{chapter}{Introduction}
 
 \section{Motivations}
-Le contexte actuel lié à la crise du coronavirus favorise le télétravail et augmente mécaniquement l’usage d’outils de collaboration en ligne, en particulier les outils de visioconférence, ce qui amène à une pression sur le réseau et plus particulièrement à une charge importante sur les serveurs de chaque solution. Il est donc important d’un point de vue efficience mais aussi impact environnemental de choisir la solution la plus sobre en ressources. Nous allons nous inspirer de travaux réalisés par l'UTC et d'une étude de Greenspector afin d'analyser d'analyser differents outils de vidéoconférence.
+Le contexte actuel lié à la crise du coronavirus favorise le télétravail et augmente mécaniquement l'usage d'outils de collaboration en ligne, en particulier les outils de visioconférence, ce qui amène à une pression sur le réseau et plus particulièrement à une charge importante sur les serveurs de chaque solution. Il est donc important d'un point de vue efficience mais aussi impact environnemental de choisir la solution la plus sobre en ressources. Nous allons nous inspirer de travaux réalisés par l'UTC et d'une étude de Greenspector afin d'analyser d'analyser differents outils de vidéoconférence.
 
 %\section{Résumé des travaux de l'UTC et Greenspector}
 \section{Le rapport de l'UTC}
@@ -61,10 +61,10 @@ Tout d'abord, l'UTC suppose directement que l'audio et la vidéo sont actifs ; i
 
 Il y a 3 scénarios, tous avec 5 participants : 
 \bi \item le premier où la réunion est en présentiel, et chaque membre s'y rend physiquement selon son temps de trajet,
-\item le deuxième où la réunion est organisée avec du matériel professionnel pour visioconférence dans l'entreprise à deux endroits, plus un troisième endroit où il y a juste un PC d'un participant, en utilisant la solution Skype,
+\item le deuxième où la réunion est organisée avec du matériel professionnel de visioconférence dans l'entreprise à deux endroits, avec un troisième endroit où il y a juste un PC d'un participant, en utilisant la solution Skype,
 \item enfin le dernier où les participants se regroupent à 3 endroits différents, donc 3 ordinateurs pour 5 participants, avec de faibles temps de transport et en visioconférence sur Jitsi. \ei
 
-D'après leurs études, le scénario C semble être le moins impactant des 3, sur l'environnement mais aussi sur la santé des participants. On remarque que les logiciels n'ont pas réellement d'impact comparé au matériel utilisé. Ils ont enfin aggravé certains scénarios, mais cela ne changeait pas le constat final. On comprend donc que leur étude n'était pas centrée sur le logiciel utilisé, mais sur ce qu'utilisaient en général les participants.
+D'après leurs études, le dernier scénario semble être le moins impactant des 3, en terme environnemental mais aussi sur la santé des participants. On remarque que les logiciels n'ont pas réellement d'impact comparé au matériel utilisé. Ils ont enfin aggravé certains scénarios, mais cela ne changeait pas le constat final. On comprend donc que leur étude n'était pas centrée sur le logiciel utilisé, mais sur ce qu'utilisaient en général les participants.
 
 \section{Le travail de Greenspector}
 Greenspector s'intéresse spécifiquement aux différents logiciels de visioconférence. Il y a là encore 3 scénarios, avec cette fois 2 participants : un avec audio, un avec audio + vidéo et enfin un avec audio + vidéo + partage d'écran.
@@ -75,7 +75,7 @@ La partie qui consomme le plus est le réseau, mais la consommation de l'apparei
 
 \chapter{Cadre de notre étude}
 \section{Objectifs}
-L'objectif est de comparer les outils de visioconférence Openmeetings, Zoom et Jitsi dans différentes conditions d'utilisation qui reflètent un usage standard en entreprise ou à l'école. Pour Zoom, nous utiliserons à la fois l'application pour pc et la version web. Pour Openmeetings, nous utiliserons les serveurs dédiés disponible sur le web. Pour Jitsi, nous avons mis en place un serveur de visioconférence Jitsi hébergé par nos soins. Nous utiliserons également les serveurs dédiés sur le web.
+L'objectif est de comparer les outils de visioconférence Openmeetings, Zoom et Jitsi (voir figure \ref{fig:logos}) dans différentes conditions d'utilisation qui reflètent un usage standard en entreprise ou à l'école. Pour Zoom, nous utiliserons à la fois l'application pour pc et la version web. Pour Openmeetings, nous utiliserons le serveur de l'école. Pour Jitsi, nous avons mis en place un serveur de visioconférence hébergé par nos soins. Nous utiliserons également les serveurs Jitsi dédiés sur le web.
 
 \begin{figure}[h]
 \begin{subfigure}
@@ -100,17 +100,17 @@ L'objectif est de comparer les outils de visioconférence Openmeetings, Zoom et 
 \label{fig:logos}
 \end{figure}
 
-Pour chacune de ces applications, nous avons mesuré :
-\bi \item la consommation d’énergie des pc lorsque l'application fonctione (Wh),
-\item la quantité de données échangées entre le serveur et l'application de visio-conférence (Mo)
+\noindent Pour chacune de ces applications, nous avons mesuré :
+\bi \item la consommation d'énergie des machines lorsque l'application fonctionne (en Wh),
+\item la quantité de données échangées entre le serveur et l'application de visio-conférence (en Mo)
 \item la projection des données mesurées en impact Carbone (gEqCO2)
 \ei
 
-Nous avons également réalisé des tests d'une durée de 30 minutes à travers différents scénarios:
+\noindent Nous avons également réalisé des tests d'une durée de 30 minutes à travers différents scénarios:
 \bi \item conférence simple à trois personnes sans partage audio ni vidéo ni partage d'écran 
 \item conférence à trois personnes avec partage audio des trois personnes, sans partage vidéo ni partage d'écran
 \item conférence à trois personnes avec partage vidéo et audio mais sans partage d'écran
-\item conférence à trois personnes avec partages vidéos, audio et patage écran \ei 
+\item conférence à trois personnes avec partages vidéos, audio et d'écran \ei 
 
 \section{Matériel}
 \subsection{Client}
@@ -130,22 +130,22 @@ Une instance de Jitsi a été configurée et hébergée par nos soins (chez Dami
 
 
 \subsection{Carbonanalyser}
-L’extension de navigateur Carbonalyser permet de visualiser la consommation électrique et les émissions de gaz à effet de serre (GES) associées à une navigation internet.
-Carbonanalyser utilise le modèle "1byte" pour les mesures de consommation électrique. Il s'agit d'un modèle mis au point par The Shift Project dans le cadre du rapport « Lean ICT – Pour une sobriété numérique », publié en octobre 2018. Ce modèle permet de calculer la consommation électrique engendrée par le transfert d’une quantité de données définie, en prenant en compte les consommations associées à la sollicitation :
-\bi \item Des centres de données où résident et transitent les données,
-\item Des infrastructures réseaux,
-\item Du terminal utilisé pour visualiser ou consommer les données. \ei
-Deux principales hypothèses sont prises dans la version du modèle "1byte" utilisée dans les calculs de l’add-on :
-\bi \item Terminal considéré : une moyenne a été effectuée sur les consommations électriques du smartphone et de l’ordinateur portable ;
+L'extension de navigateur Carbonalyser permet de visualiser la consommation électrique et les émissions de gaz à effet de serre (GES) associées à une navigation internet.
+Carbonanalyser utilise le modèle "1byte" pour les mesures de consommation électrique. Il s'agit d'un modèle mis au point par The Shift Project dans le cadre du rapport « Lean ICT – Pour une sobriété numérique », publié en octobre 2018. Ce modèle permet de calculer la consommation électrique engendrée par le transfert d'une quantité de données définie, en prenant en compte les consommations associées à la sollicitation :
+\bi \item des centres de données où résident et transitent les données,
+\item des infrastructures réseaux,
+\item du terminal utilisé pour visualiser ou consommer les données. \ei
+Deux principales hypothèses sont prises dans la version du modèle "1byte" utilisée dans les calculs de l'add-on :
+\bi \item Terminal considéré : une moyenne a été effectuée sur les consommations électriques du smartphone et de l'ordinateur portable ;
 \item Réseau considéré : est considéré ici la consommation associée au réseau WIFI.  \ei
 
-La consommation électrique calculée est traduite en émissions de gaz à effet de serre à partir du facteur d’émission de la zone géographique sélectionnée. Le facteur d’émission traduit l’intensité carbone de la production d’électricité, au vu du mix électrique en vigueur dans la zone géographique :
+La consommation électrique calculée est traduite en émissions de gaz à effet de serre à partir du facteur d'émission de la zone géographique sélectionnée. Le facteur d'émission traduit l'intensité carbone de la production d'électricité, au vu du mix électrique en vigueur dans la zone géographique :
 \bi \item Union Européenne : 0,276 kgCO2e/kWh
 \item France : 0,035 kgCO2e/kWh
 \item Etats-Unis : 0,493 kgCO2e/kWh
 \item Chine : 0,681 kgCO2e/kWh
 \item Autres (correspond au facteur moyen mondial) : 0,519 kgCO2e/kWh \ei
-\bd{Mix électrique} Le mix électrique désigne les sources d’énergie utilisées dans la production d’électricité d’un pays. Leur utilisation se fait en proportions différentes. \eb
+\bd{Mix électrique} Le mix électrique désigne les sources d'énergie utilisées dans la production d'électricité d'un pays. Leur utilisation se fait en proportions différentes. \eb
 
 \subsection{Moniteur système Gnome}
 Pour mesurer les quantités de données, nous utiliserons le moniteur système intégré à Gnome, qui présente le débit de données échangés en temps réel sous forme de graphique (voir figure \ref{fig:gnome}).
@@ -172,7 +172,7 @@ Dans notre cas, la règle pour autoriser Jitsi est l'ouverture des ports UDP 100
 
 
 \subsection{Scaphandre}
-Scaphandre est  un logiciel open-source de mesure de la consommation d'énergie d’un serveur informatique ou d'un ordinateur, mais aussi plus précisément des services et applications qu’il exécute. Plus précisément, scaphandre est à la fois un outil utilisable en ligne de commande et un démon (service).
+Scaphandre est un logiciel open-source de mesure de la consommation d'énergie d'un serveur informatique ou d'un ordinateur, mais aussi plus précisément des services et applications qu'il exécute. Plus précisément, scaphandre est à la fois un outil utilisable en ligne de commande et un démon (service).
 Le projet a notamment pour objectif de rendre la mesure de consommation d'énergie suffisamment simple pour que ça devienne “un basique”, au même titre que le nombre de requêtes par seconde ou la latence, le temps CPU consommé ou la RAM, etc…
 
 Nous utilisons Scaphandre sur la machine cliente pour mesurer la consommation électrique soit du client Zoom, soit du navigateur web, comme montré à la figure \ref{fig:scaph} :
@@ -187,7 +187,7 @@ Nous utilisons Scaphandre sur la machine cliente pour mesurer la consommation é
 
 \chapter{Résultats}
 
-\section{Consommation d’énergie des applications de visioconférence}
+\section{Consommation d'énergie des applications de visioconférence}
 
 \paragraph{}
 Dans ce qui suit, nous allons nous intéréssser à la consommation énergétique des applications de visioconférence sur l'ordinateur de l'utilisateur. Les résultats sont présentés sur la figure \ref{fig:graph_energie}. Rappelons également que ces valeurs sont données pour une minute de visioconférence à 3 participants (mesure de 30 minutes normalisée à 1 minute). Plus la consommation est faible, plus l'impact environnemental de l'applcation est faible.
@@ -200,9 +200,9 @@ Dans ce qui suit, nous allons nous intéréssser à la consommation énergétiqu
   \label{fig:graph_energie}
 \end{figure}
 
-On peut remarquer que généralement l'utilisation de l'audio et la vidéo ainsi que le partage d'écran sont nettement plus énergivores que l'audio simple ou encore la connexion à la réunion sans intéractions. En effet, les réunion avec vidéo et audio sont en moyenne trois fois plus gourmande en énergie que les réunions ne faisant appel qu'à l'audio.
+On peut remarquer que généralement l'utilisation de l'audio et la vidéo ainsi que le partage d'écran sont nettement plus énergivores que l'audio simple ou encore la connexion à la réunion sans interactions. En effet, les réunions avec vidéo et audio sont en moyenne trois fois plus gourmandes en énergie que les réunions ne faisant appel qu'à l'audio.
 
-De plus, nous avons remarqué que même si les applications consomment 2 fois moins d'énergie en moyenne en mode off (sans aucun échange) que si l'audio est activé. Cependant, consommer de l'énergie pour ne rien faire est du gaspillage pur et dur.
+De plus, nous avons remarqué que même si les applications consomment 2 fois moins d'énergie en moyenne en mode off (sans aucun échange) que lorsque l'audio est activé. Cependant, consommer de l'énergie pour ne rien faire est du gaspillage pur et dur.
 
 Là où les applications Open Meetings et Jitsi (avec notre serveur hebergé sur l'ordinateur de Damien) sont plus performantes en audio, elles le deviennent beaucoup moins que les autres lorsque l'on active la vidéo, avec ou sans partage d'écran.
 
@@ -225,11 +225,11 @@ Dans ce paragraphe, nous allons nous intéréssser aux données échangées des 
   \label{fig:graph_donne}
 \end{figure}
 
-Comme montré sur la figure \ref{fig:graph_donne}, une minute de visioconférence en audio nécessite, en moyenne, 7 fois moins de données échangées qu’avec les caméras activées. Cependant, l'utilisation du partage d'écran est moins impactante que la vidéo. Son impact est, sur la moyenne des différentes mesures réalisées sur les applications de visioconférence, presque négligeable.
+Comme montré sur la figure \ref{fig:graph_donne}, une minute de visioconférence en audio nécessite, en moyenne, 7 fois moins de données échangées qu'avec les caméras activées. Cependant, l'utilisation du partage d'écran est moins impactante que la vidéo. Son impact est, sur la moyenne des différentes mesures réalisées sur les applications de visioconférence, presque négligeable.
 
 On peut également remarquer que lorsqu'aucune fonctionnalité de l'application n'est utilisée, la quantité de données échangée avec le serveur est certes faible mais non nulle. Ainsi, le simple fait de rester connecté sur l'application a un impact. 
 
-Ensuite, aucune application ne semble plus performante en matière d'échange de données. Tout dépend du contexte d'utilisation. Zoom (sur l'application et le web) est la plus intéressante lorsqu'il s'agit d'utiliser la caméra, l'audio et le partage d'écran. Cependant lorsque l'audio et la caméra sont activés, les applications les plus intéressantes semblent être open-meeting et jitsi.  Pour le cas d'utilisation ne faisant intervenir que l'audio, toutes les solutions semblent être plus ou moins équivalentes même si Zoom et Jitsi semblent être plus performants dans ce cas.
+Ensuite, aucune application ne semble plus performante en matière d'échange de données. Tout dépend du contexte d'utilisation. Zoom (sur l'application et le web) est la plus intéressante lorsqu'il s'agit d'utiliser la caméra, l'audio et le partage d'écran. Cependant lorsque l'audio et la caméra sont activés, les applications les plus intéressantes semblent être Openmeetings et Jitsi. Pour le cas d'utilisation ne faisant intervenir que l'audio, toutes les solutions semblent être plus ou moins équivalentes même si Zoom et Jitsi semblent être plus performants dans ce cas.
 
 \br L'ajout d'un partage d'écran dans une conférence audio et vidéo entraîne une baisse drastique de la consommation de données sur l'application Zoom. Comme dans le cas de la consommation énergétique, ceci est du au rendu d'une seule vidéo, ce qui réduit les données à transférer. 
 
@@ -262,7 +262,7 @@ Ainsi, ces résultats sont à prendre dans le contexte d'une conférence de tail
 \chapter*{Conclusion}
 \addcontentsline{toc}{chapter}{Conclusion}
 
-En définitive, notre étude a démontré qu'il était préférable de favoriser l’audio uniquement lors de vos réunions : le flux vidéo (caméra) aura tendance à consommer beaucoup plus. De plus, ajouter un partage d’écran n’est pas trop pénalisant s’il est utile.
+En définitive, notre étude a démontré qu'il était préférable de favoriser l'audio uniquement lors de vos réunions : le flux vidéo (caméra) aura tendance à consommer beaucoup plus. De plus, ajouter un partage d'écran n'est pas trop pénalisant s'il est utile.
 
 Enfin, il est important de souligner qu'une réunion, même si aucun intervenant ne participe, est énergivore. Pensez donc a vous déconnecter si la réunion est finie. Enfin, n'hésitez pas à installer l'application pc ou mac de votre système de visioconférence préféré, votre impact carbone sera moindre et vous y aurez accès plus facilement.
 
@@ -275,7 +275,7 @@ Kimberley DERUDDER, \textit{Quelle application mobile de visioconférence pour r
 \url{https://greenspector.com/fr/quelle-application-mobile-de-visioconference-pour-reduire-votre-impact/}
 
 \bibitem{UTC} 
-Aurélien Béranger, Clément Brizard, Valentin Le Gauche, Yacine Baouch. \textit{Proposition d’une méthode d'évaluation environnementale multicritère des réunions en présentiel et en visio-conférence}, Rapport de l'UTC, 8 décembre 2020
+Aurélien Béranger, Clément Brizard, Valentin Le Gauche, Yacine Baouch. \textit{Proposition d'une méthode d'évaluation environnementale multicritère des réunions en présentiel et en visio-conférence}, Rapport de l'UTC, 8 décembre 2020
 
 \url{https://halshs.archives-ouvertes.fr/halshs-03120479/document}
 
