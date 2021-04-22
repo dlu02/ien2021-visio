@@ -50,18 +50,24 @@ backgroundcolor=\color{yellow!5},columns=fullflexible}
 \addcontentsline{toc}{chapter}{Introduction}
 
 \section{motivations}
-Le contexte actuel lié à la crise du coronavirus favorise le télétravail et augmente mécaniquement l’usage d’outils de collaboration en ligne, en particulier les outils de visioconférence. Ce qui amène à une pression sur le réseau et plus particulièrement à une charge importante sur les serveurs de chaque solution. Il est donc important d’un point de vue efficience mais aussi impact environnemental de choisir la solution la plus sobre en ressources. Nous allons nous inspirer de travaux réalisé par l'UTC et une étude de Greenspector afin d'analyser d'analyser differents outils de vidéoconférence.
+Le contexte actuel lié à la crise du coronavirus favorise le télétravail et augmente mécaniquement l’usage d’outils de collaboration en ligne, en particulier les outils de visioconférence, ce qui amène à une pression sur le réseau et plus particulièrement à une charge importante sur les serveurs de chaque solution. Il est donc important d’un point de vue efficience mais aussi impact environnemental de choisir la solution la plus sobre en ressources. Nous allons nous inspirer de travaux réalisés par l'UTC et d'une étude de Greenspector afin d'analyser d'analyser differents outils de vidéoconférence.
 
 %\section{Résumé des travaux de l'UTC et Greenspector}
 \section{Le rapport de l'UTC}
-Tout d'abord l'UTC suppose directement que l'audio et la vidéo sont actifs, ils considèrent l'impact matériel, logiciel et transport.\\
-Il y a 3 scénarios, tous avec 5 participants : Le premier où la réunion est en présentiel, et chaque membre s'y rend physiquement selon son temps de trajet. Le deuxième où la réunion est organisée avec du matériel professionnel pour visioconférence dans l'entreprise à deux endroits, plus un troisième endroit où il y a juste un PC d'un participant, ils utilisent Skype. Enfin le dernier où les participants se regroupent à 3 endroits différents, donc 3 ordinateurs pour 5 participants, avec de faibles temps de transport et en visioconférence sur Jitsi.\\
-D'après leurs études, le scénario C semble être le moins impactant des 3, sur l'environnement mais aussi sur la santé des participants. On remarque que les logiciels n'ont pas réellement d'impact comparé au matériel utilisé. Ils ont enfin aggravé certains scénarios, mais cela ne changeait pas le constat final.\\
-On comprend donc que leur étude n'était pas centrée sur le logiciel utilisé, mais sur ce qu'utilisaient en général les participants.
+Tout d'abord, l'UTC suppose directement que l'audio et la vidéo sont actifs ; ils considèrent l'impact matériel, logiciel et transport.
 
-\section{le travail de Greenspector}
-Greenspector eux s'intéressent spécifiquement aux différents logiciels de visioconférence. Il y a encore 3 scénarios, avec cette fois 2 participants : un avec audio, un avec audio + vidéo et enfin un avec audio + vidéo + partage d'écran.\\
-Il s'intéressent à la quantité de données échangées ainsi qu'à la consommation éléctrique. Ils transposent ensuite en équivalent carbone. La conclusion de leurs travaux est que la vidéo consomme énormement, et le partage d'écran moins que la vidéo mais toujours plus que l'audio.\\
+Il y a 3 scénarios, tous avec 5 participants : 
+\bi \item le premier où la réunion est en présentiel, et chaque membre s'y rend physiquement selon son temps de trajet,
+\item le deuxième où la réunion est organisée avec du matériel professionnel pour visioconférence dans l'entreprise à deux endroits, plus un troisième endroit où il y a juste un PC d'un participant, en utilisant la solution Skype,
+\item enfin le dernier où les participants se regroupent à 3 endroits différents, donc 3 ordinateurs pour 5 participants, avec de faibles temps de transport et en visioconférence sur Jitsi. \ei
+
+D'après leurs études, le scénario C semble être le moins impactant des 3, sur l'environnement mais aussi sur la santé des participants. On remarque que les logiciels n'ont pas réellement d'impact comparé au matériel utilisé. Ils ont enfin aggravé certains scénarios, mais cela ne changeait pas le constat final. On comprend donc que leur étude n'était pas centrée sur le logiciel utilisé, mais sur ce qu'utilisaient en général les participants.
+
+\section{Le travail de Greenspector}
+Greenspector s'intéresse spécifiquement aux différents logiciels de visioconférence. Il y a là encore 3 scénarios, avec cette fois 2 participants : un avec audio, un avec audio + vidéo et enfin un avec audio + vidéo + partage d'écran.
+
+Ils s'intéressent à la quantité de données échangées ainsi qu'à la consommation éléctrique, qu'ils transposent ensuite en équivalent carbone. La conclusion de leurs travaux est que la vidéo consomme énormement, et le partage d'écran moins que la vidéo mais toujours plus que l'audio.
+
 La partie qui consomme le plus est le réseau, mais la consommation de l'appareil est également importante (presque 1 tier). La consommation serveur est très faible. Selon eux l'application qui a le moins d'impact est GoToMeeting, celle qui consomme le plus est Jitsi.
 
 \chapter{Cadre de notre étude}
@@ -91,7 +97,7 @@ L'objectif est de comparer les outils de visioconférence Openmeetings, Zoom et 
 %\label{fig:fig1}
 \end{figure}
 
-Pour chacune de ses applications, nous avons mesuré :
+Pour chacune de ces applications, nous avons mesuré :
 \bi \item la consommation d’énergie (mAh),
 \item la quantité de données échangées (Mo)
 \item la projection des données mesurées en impact Carbone (gEqCO2)
@@ -105,35 +111,37 @@ Nous avons également réalisé des tests d'une durée de 30 minutes à travers 
 
 \section{Matériel}
 \subsection{Client}
-Pour prendre les mesures, nous considérerons un ordinateur portable Acer tournant sous Arch Linux Gnome (voir figure 1.1) Pour chacun des scénarios, les mesures sont faites avec uniquement l'application ouverte et sur batterie, ceci pour refléter un usage normal par un étudiant.
+Pour prendre les mesures, nous considérerons un ordinateur portable Acer tournant sous Arch Linux Gnome (voir figure \ref{fig:test}) Pour chacun des scénarios, les mesures sont faites avec uniquement l'application ouverte et sur batterie, ceci pour refléter un usage normal par un étudiant.
 \begin{figure}[!h]
     \centering
     \includegraphics[scale=0.1]{ordinateur.jpg}
     \caption{Ordinateur portable de test}
+     \label{fig:test}
 \end{figure}
 \subsection{Serveur Jitsi}
-Une instance de Jitsi a été configurée et hébergée par nos soins (chez Damien Lu) sur un autre ordinateur portable de test. Cette instance est alors accessible avec le lien suivant : \url{https://visio.dlu02.ovh}. Sur ce serveur peuvent alors être mesurées les valeurs de puissance instantanée ainsi que de quantité de données échangée (via les utilitaires présentés à la section suivante), ce qui permet d'avoir un aperçu des ressources utilisées par un serveur de visioconférence. 
+Une instance de Jitsi a été configurée et hébergée par nos soins (chez Damien) sur un autre ordinateur portable de test. Cette instance est alors accessible avec le lien suivant : \url{https://visio.dlu02.ovh}. Sur ce serveur peuvent alors être mesurées les valeurs de puissance instantanée ainsi que de quantité de données échangée (via les utilitaires présentés à la section suivante), ce qui permet d'avoir un aperçu des ressources utilisées par un serveur de visioconférence. 
 \br Le serveur étant un ordinateur portable, qui par définition consomme moins qu'un ordinateur de bureau, et accessoirement encore moins qu'une armoire de serveurs, les valeurs obtenues du côté serveur sont logiquement très inférieures aux valeurs attendues. \eb
 \section{Outils de mesures}
 
 \subsection{Moniteur système Gnome}
-Pour mesurer les quantités de données, nous utiliserons le moniteur système intégré à Gnome, qui présente le débit de données échangés en temps réel sous forme de graphique (voir figure 1.2) :
+Pour mesurer les quantités de données, nous utiliserons le moniteur système intégré à Gnome, qui présente le débit de données échangés en temps réel sous forme de graphique (voir figure \ref{fig:gnome}) :
 
 \begin{figure}[!h]
     \centering
     \includegraphics[scale=0.3]{capture_moniteur_sys.png}
     \caption{Moniteur système Gnome et graphique du débit échangé}
+     \label{fig:gnome}
 \end{figure}
 
 La valeur retenue à l'issue de chaque mesure est la valeur moyenne du débit, et donc pour obtenir la quantité de données échangées, il suffit de multiplier par la durée de la mesure (30 min).
 
 \subsection{iptables}
-Pour mesurer la quantité de données échangées en Mo du côté serveur (qui ne possède pas d'interface graphique), nous utiliserons le pare-feu logiciel du serveur \texttt{iptables} qui permet de mesurer la taille totale des paquets correspondant à chaque règle du pare-feu (et donc une règle du pare-feu autorise les échanges entre Jitsi et Internet), comme montré à la figure 1.3 :
+Pour mesurer la quantité de données échangées en Mo du côté serveur (qui ne possède pas d'interface graphique), nous utiliserons le pare-feu logiciel du serveur \texttt{iptables} qui permet de mesurer la taille totale des paquets correspondant à chaque règle du pare-feu (et donc une règle du pare-feu autorise les échanges entre Jitsi et Internet), comme montré à la figure \ref{fig:iptables} :
 \begin{figure}[!h]
     \centering
     \includegraphics[scale=0.5]{iptables.PNG}
     \caption{Règles du pare-feu iptables et quantité de données échangées}
-    \label{fig:my_label}
+    \label{fig:iptables}
 \end{figure}
 
 Dans notre cas, la règle pour autoriser Jitsi est l'ouverture des ports UDP 10000 à 20000. Ainsi, la taille des paquets reçus indique la quantité de données échangée lors d'une visioconférence.
@@ -160,12 +168,12 @@ La consommation électrique calculée est traduite en émissions de gaz à effet
 Scaphandre est  un logiciel open-source de mesure de la consommation d'énergie d’un serveur informatique ou d'un ordinateur, mais aussi plus précisément des services et applications qu’il exécute. Plus précisément, scaphandre est à la fois un outil utilisable en ligne de commande et un démon (service).
 Le projet a notamment pour objectif de rendre la mesure de consommation d'énergie suffisamment simple pour que ça devienne “un basique”, au même titre que le nombre de requêtes par seconde ou la latence, le temps CPU consommé ou la RAM, etc…
 
-Nous utilisons Scaphandre sur le client pour mesurer la consommation électrique soit du client Zoom, soit du navigateur web, comme montré à la figure suivante :
+Nous utilisons Scaphandre sur le client pour mesurer la consommation électrique soit du client Zoom, soit du navigateur web, comme montré à la figure \ref{fig:scaph} :
 \begin{figure}[!h]
     \centering
     \includegraphics[scale=0.5]{capture_scaphandre.png}
     \caption{Commande \texttt{scaphandre stdout} renvoyant les 5 processus les plus gourmands}
-    \label{fig:my_label}
+    \label{fig:scaph}
 \end{figure}
 
 
@@ -190,11 +198,10 @@ On remarque également que Zoom reste l'application la plus performante peu impo
 
 \section{Données échangées des applications de visioconférence}
 
-\paragraph{}
-Dans ce paragraphe, nous allons nous intérésssé aux Données échangées des applications de visioconférence entre l'ordinateur de l'utilisateur et le serveur. plus la quantité de donné est faible, plus l'impact environnemental de l'applcation est faible.
+Dans ce paragraphe, nous allons nous intéréssser aux données échangées des applications de visioconférence entre l'ordinateur de l'utilisateur et le serveur. Plus la quantité de données est faible, plus l'impact environnemental de l'applcation est faible.
 
 \paragraph{}
-Comme montré sur la figure \ref{fig:graph_energie}, une minute de visioconférence en audio nécessite, en moyenne, 7 fois moins de données échangées qu’avec les caméras activées. cependant, l'utilisation du partage d'écran est moins impactant que la vidéo. Son impact est, sur la moyenne des différentes mesures réalisé sur les applications de visioconférence, presque négligeable.
+Comme montré sur la figure \ref{fig:graph_energie}, une minute de visioconférence en audio nécessite, en moyenne, 7 fois moins de données échangées qu’avec les caméras activées. Cependant, l'utilisation du partage d'écran est moins impactante que la vidéo. Son impact est, sur la moyenne des différentes mesures réalisées sur les applications de visioconférence, presque négligeable.
 
 \begin{figure}[h]
   \centering
@@ -203,12 +210,10 @@ Comme montré sur la figure \ref{fig:graph_energie}, une minute de visioconfére
   \label{fig:graph_donne}
 \end{figure}
 
-\paragraph{}
-On peut également remarquer que même si aucune fonctionnalité de l'application n'est utilisé, la quantité de données échangé avec le serveur est certe faible mais non null. Ainsi, le simple fait de rester connecter sur l'application a un impact. 
+On peut également remarquer que lorsqu'aucune fonctionnalité de l'application n'est utilisée, la quantité de données échangée avec le serveur est certes faible mais non nulle. Ainsi, le simple fait de rester connecté sur l'application a un impact. 
 
-\paragraph{}
-Ensuite, la aucune application ne semble plus performante en matière d'échange de donnée. Tout dépend du contexte d'utilisation. Zoom (sur l'application et le web) est la plus intéressante lorsqu'il s'agit d'utiliser la caméra, l'audio et le partage d'écran. Cependant lorsque l'audio et la caméra sont activé, les aplications les plus intéressantes semblent être open-meeting et jitsi. 
-Pour le cas d'utilisation ne faisant intervenir que l'audio, toutes les solutions semblent être plus ou moins équivalentes même si Zoom et jitsi semblent être plus performant dans ce cas.
+Ensuite, aucune application ne semble plus performante en matière d'échange de données. Tout dépend du contexte d'utilisation. Zoom (sur l'application et le web) est la plus intéressante lorsqu'il s'agit d'utiliser la caméra, l'audio et le partage d'écran. Cependant lorsque l'audio et la caméra sont activés, les applications les plus intéressantes semblent être open-meeting et jitsi. 
+Pour le cas d'utilisation ne faisant intervenir que l'audio, toutes les solutions semblent être plus ou moins équivalentes même si Zoom et Jitsi semblent être plus performant dans ce cas.
 
 
 \newpage
@@ -223,12 +228,12 @@ Pour le cas d'utilisation ne faisant intervenir que l'audio, toutes les solution
     \label{fig:my_label}
 \end{figure}
 
-Ici on a réalisé la moyenne en gEqCO2 de la consommation des applications, pour tous les scénarios étudiés. Comme prévu, c'est Zoom qui l'emporte largement devant les autres, avec une faible consommation électrique peu importe le cas d'utilisation.
+Ici, on a réalisé la moyenne en gEqCO2 de la consommation des applications, pour tous les scénarios étudiés. Comme prévu, c'est Zoom qui l'emporte largement devant les autres, avec une faible consommation électrique peu importe le cas d'utilisation.
 
 \chapter*{Conclusion}
 \addcontentsline{toc}{chapter}{Conclusion}
 
-En définitive, notre étude a démontré qu'il était préférable de favoriser l’audio uniquement lors de vos réunions : le flux vidéo (caméra) aura tendance à consommer beaucoup plus. De plus, Ajouter un partage d’écran n’est pas trop pénalisant s’il est utile. Enfin, il est important de souligner qu'une réunion, même si aucun intervenant ne participe est énergivore. Pensez donc a vous déconnecter si la réunion est fini.
+En définitive, notre étude a démontré qu'il était préférable de favoriser l’audio uniquement lors de vos réunions : le flux vidéo (caméra) aura tendance à consommer beaucoup plus. De plus, ajouter un partage d’écran n’est pas trop pénalisant s’il est utile. Enfin, il est important de souligner qu'une réunion, même si aucun intervenant ne participe, est énergivore. Pensez donc a vous déconnecter si la réunion est fini.
 
 
 \begin{thebibliography}{9}
