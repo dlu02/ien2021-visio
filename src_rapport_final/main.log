@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.4.18)  22 APR 2021 08:01
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.4.18)  22 APR 2021 11:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1425,70 +1425,70 @@ Invalid UTF-8 byte or sequence at line 454 replaced by U+FFFD.
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 19.
+LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 22.
 LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line
- 19.
+ 22.
 
 (c:/Users/ludam/progPerso/texlive/2021/texmf-dist/tex/latex/newtx/omlntxmi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
-9.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
+2.
 
 (c:/Users/ludam/progPerso/texlive/2021/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 22.
 LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 
-19.
+22.
 
 (c:/Users/ludam/progPerso/texlive/2021/texmf-dist/tex/latex/newtx/untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 22.
 LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line
- 19.
+ 22.
 
 (c:/Users/ludam/progPerso/texlive/2021/texmf-dist/tex/latex/newtx/lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 22.
 LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input lin
-e 19.
+e 22.
 
 (c:/Users/ludam/progPerso/texlive/2021/texmf-dist/tex/latex/newtx/lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Info: Redefining \dots on input line 19.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Info: Redefining \dots on input line 22.
 Package french.ldf Info: Setting StandardItemizeEnv=true for
 (french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 19.
+(french.ldf)             reported on input line 22.
 Package french.ldf Info: Setting StandardEnumerateEnv=true for
 (french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 19.
-LaTeX Info: Redefining \up on input line 19.
+(french.ldf)             reported on input line 22.
+LaTeX Info: Redefining \up on input line 22.
 \c@lstlisting=\count371
-Package hyperref Info: Link coloring OFF on input line 19.
+Package hyperref Info: Link coloring OFF on input line 22.
 
 (c:/Users/ludam/progPerso/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.st
 y
@@ -1504,9 +1504,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count372
 )
-LaTeX Info: Redefining \ref on input line 19.
-LaTeX Info: Redefining \pageref on input line 19.
-LaTeX Info: Redefining \nameref on input line 19.
+LaTeX Info: Redefining \ref on input line 22.
+LaTeX Info: Redefining \pageref on input line 22.
+LaTeX Info: Redefining \nameref on input line 22.
  (./main.out) (./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
@@ -1548,63 +1548,63 @@ LaTeX Info: Redefining \nameref on input line 19.
 
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 19.
+(lastpage)             ! on input line 22.
 LaTeX Font Info:    Font shape `TU/SourceSerifPro(0)/m/n' will be
-(Font)              scaled to size 20.74pt on input line 24.
+(Font)              scaled to size 20.74pt on input line 27.
 LaTeX Font Info:    Font shape `TU/SourceSerifPro(0)/b/n' will be
-(Font)              scaled to size 20.74pt on input line 25.
+(Font)              scaled to size 20.74pt on input line 28.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
-5.
+8.
 (c:/Users/ludam/progPerso/texlive/2021/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 25.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 28.
 
 
 (c:/Users/ludam/progPerso/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 25.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 28.
 
 
 (c:/Users/ludam/progPerso/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+stmry on input line 2
-5.
+8.
 
 (c:/Users/ludam/progPerso/texlive/2021/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
 
 LaTeX Font Warning: Font shape `U/stmry/m/n' in size <16.1> not available
-(Font)              size <17.28> substituted on input line 25.
+(Font)              size <17.28> substituted on input line 28.
 
 
 LaTeX Font Warning: Font shape `U/stmry/m/n' in size <11.4> not available
-(Font)              size <10.95> substituted on input line 25.
+(Font)              size <10.95> substituted on input line 28.
 
 LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 
-25.
+28.
 (c:/Users/ludam/progPerso/texlive/2021/texmf-dist/tex/latex/newtx/untxmia.fd
 File: untxmia.fd 2018/04/14 Fontinst v1.933 font definitions for U/ntxmia.
 )
 LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 
-25.
+28.
 
 (c:/Users/ludam/progPerso/texlive/2021/texmf-dist/tex/latex/newtx/untxsym.fd
 File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
 )
 LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 
-25.
+28.
 
 (c:/Users/ludam/progPerso/texlive/2021/texmf-dist/tex/latex/newtx/untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
 LaTeX Font Info:    Font shape `TU/SourceSerifPro(0)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 29.
+(Font)              scaled to size 14.4pt on input line 32.
 LaTeX Font Info:    Font shape `TU/SourceSerifPro(0)/m/it' will be
-(Font)              scaled to size 14.4pt on input line 29.
+(Font)              scaled to size 14.4pt on input line 32.
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--39
+Underfull \hbox (badness 10000) in paragraph at lines 36--42
 
  []
 
@@ -1624,9 +1624,9 @@ y
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 )
 LaTeX Font Info:    Font shape `TU/SourceSerifPro(0)/m/n' will be
-(Font)              scaled to size 24.88pt on input line 46.
+(Font)              scaled to size 24.88pt on input line 49.
 LaTeX Font Info:    Font shape `TU/SourceSerifPro(0)/b/n' will be
-(Font)              scaled to size 24.88pt on input line 46.
+(Font)              scaled to size 24.88pt on input line 49.
  (./main.toc
 LaTeX Font Info:    Font shape `TU/SourceSerifPro(0)/b/n' will be
 (Font)              scaled to size 10.95pt on input line 2.
@@ -1638,7 +1638,7 @@ LaTeX Font Info:    Font shape `TU/SourceSerifPro(0)/b/n' will be
 
 ]
 LaTeX Font Info:    Font shape `TU/SourceSerifPro(0)/b/n' will be
-(Font)              scaled to size 14.4pt on input line 52.
+(Font)              scaled to size 14.4pt on input line 55.
  [2
 
 ]
@@ -1649,40 +1649,44 @@ File: logo.png Graphic file (type bmp)
 <logo.png>
 File: logo-jitsi-meet.png Graphic file (type bmp)
 <logo-jitsi-meet.png>
+LaTeX Font Info:    Font shape `TU/SourceSerifPro(0)/m/sc' will be
+(Font)              scaled to size 10.95pt on input line 99.
 LaTeX Font Info:    Font shape `TU/SourceSerifPro(0)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 113.
+(Font)              scaled to size 12.0pt on input line 116.
 LaTeX Font Info:    Font shape `TU/SourceSerifPro(0)/b/n' will be
-(Font)              scaled to size 12.0pt on input line 113.
+(Font)              scaled to size 12.0pt on input line 116.
 File: ordinateur.jpg Graphic file (type bmp)
 <ordinateur.jpg>
-LaTeX Font Info:    Font shape `TU/SourceSerifPro(0)/m/sc' will be
-(Font)              scaled to size 10.95pt on input line 118.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Package hyperref Info: bookmark level for unknown bclogo defaults to 0 on input
- line 123.
+ line 126.
 File: bc-fleur.mps Graphic file (type mps)
 <bc-fleur.mps>
 LaTeX Font Info:    Font shape `TU/SourceSerifPro(0)/m/it' will be
-(Font)              scaled to size 10.95pt on input line 123.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 123.
+(Font)              scaled to size 10.95pt on input line 126.
 [3
 
 ]
-File: capture_moniteur_sys.png Graphic file (type bmp)
-<capture_moniteur_sys.png>
-File: iptables.PNG Graphic file (type bmp)
-<iptables.PNG>
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 126.
  [4]
 File: bc-info.mps Graphic file (type mps)
 <bc-info.mps>
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 165.
- [5]
+(mdframed)              on input line 148.
+File: capture_moniteur_sys.png Graphic file (type bmp)
+<capture_moniteur_sys.png>
+File: iptables.PNG Graphic file (type bmp)
+<iptables.PNG>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[5]
 File: capture_scaphandre.png Graphic file (type bmp)
 <capture_scaphandre.png>
  [6]
@@ -1692,15 +1696,25 @@ File: graph_energie.pdf Graphic file (type pdf)
 [7
 
 ]
+File: bc-fleur.mps Graphic file (type mps)
+<bc-fleur.mps>
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 211.
 File: graph_donnees.pdf Graphic file (type pdf)
 <use graph_donnees.pdf>
  [8]
+File: bc-fleur.mps Graphic file (type mps)
+<bc-fleur.mps>
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 234.
 File: moyenne.png Graphic file (type bmp)
 <moyenne.png>
- [9] [10
+ [9] [10] [11
 
 ]
-Overfull \hbox (107.27774pt too wide) in paragraph at lines 244--245
+Overfull \hbox (107.27774pt too wide) in paragraph at lines 275--276
 [][]$[][][][][] [] [] [] [][][][][][][][][][][][] [] [][][] [] [][] [] [][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]$[] 
@@ -1708,23 +1722,26 @@ Overfull \hbox (107.27774pt too wide) in paragraph at lines 244--245
 
 
 AED: lastpage setting LastPage
-[11
+[12
 
 ] (./main.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.18pt have occurred.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C8A46E9D65664B11D6DFF3AFC3639216;3201.
+(rerunfilecheck)             Checksum: 789C7253B800871EC90C28FB03456B68;3433.
  ) 
 Here is how much of TeX's memory you used:
- 30483 strings out of 478799
- 588197 string characters out of 5859678
- 1123531 words of memory out of 5000000
- 49751 multiletter control sequences out of 15000+600000
+ 30493 strings out of 478799
+ 588379 string characters out of 5859678
+ 1123825 words of memory out of 5000000
+ 49761 multiletter control sequences out of 15000+600000
  468096 words of font info for 161 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  107i,11n,106p,616b,1349s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (12 pages).
+Output written on main.pdf (13 pages).
